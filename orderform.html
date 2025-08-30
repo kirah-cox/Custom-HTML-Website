@@ -1,26 +1,40 @@
-<a href="index.html">Home</a>
-<p>
-    <table border="1">
-        <tr>
-            <th>Cookie Type</th>
-            <th>Price</th>
-        </tr>
-        <tr>
-            <td>Chocolate Chip</td>
-            <td>$4.50</td>
-            <td>Oatmeal Raisin</td>
-            <td>$2.50</td>
-        </tr>
-    </table>
-</p>
-<p>
-    <form>
-        <label>Cookie Type</label>
-        <input name="Cookie Type"><br>
-        <label>Quantity</label>
-        <input name="Quantity"><br>
-        <label>Delivery Date</label>
-        <input name="Date" type="date"><br>
-        <button>Order</button>
-    </form>
-</p>
+<link rel="stylesheet" href="styling.css">
+
+<head>
+    <ul class="nav-bar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="recipe.html">Recipe</a></li>
+        <li><a href="orderform.html">Order</a></li>
+    </ul>
+</head>
+
+<body class="text-format">
+    <img src="cookies-8082386_1280.jpg" alt="Kevin Cookie Company Logo" class="main-image">
+    <p>
+        <table class="order-table">
+            <tr>
+                <th>Cookie Type</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Chocolate Chip</td>
+                <td>$4.50</td>
+            </tr>
+            <tr>
+                <td>Oatmeal Raisin</td>
+                <td>$2.50</td>
+            </tr>
+        </table>
+    </p>
+    <p>
+        <form>
+            <label>Cookie Type:</label>
+            <input name="Cookie Type"><br>
+            <label>Quantity:</label>
+            <input name="Quantity"><br>
+            <label>Delivery Date:</label>
+            <input name="Date" type="date"><br>
+            <button class="button">Order</button>
+        </form>
+    </p>
+</body>
